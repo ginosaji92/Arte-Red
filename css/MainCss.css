@@ -17,10 +17,57 @@ header div
 	left: 0;
 	width: 100%;
 }
+#retrato
+{
+	width: 60px;
+	border-radius: 50%;
+}
+#retrato:hover
+{
+	transform: rotate(359deg);
+	-webkit-transition: transform 0.5s;
+}
+span
+{
+	display: inline-block;
+	position: absolute;
+	overflow: hidden;
+	right:100px;
+	margin: 5px;
+}
+.HS
+{
+	width: 250px;
+	box-shadow: 0 0 0 white;
+	-webkit-transition: box-shadow 0.5s;
+}
+.HS:hover
+{
+	box-shadow: 10px 10px 5px #888888;
+	width: 257px;
+	margin: -7px -7px -7px -0px;
+}
+.contvideo
+{
+	display: inline-block;
+	padding: 5px;
+	margin: 0;
+}
+.contvideo p
+{
+	margin: 0;
+	padding: 5px;
+	background-color: #47a3da;
+}
+.videoHOTS
+{
+	width: 500px;	
+}
 h1
 {
 	margin: 0;
 	font-size: 50px;
+	display: inline-block;
 }
 section
 {
@@ -105,9 +152,9 @@ section
 	-webkit-font-smoothing: antialiased;
 
 	transform: rotate(270deg);
--webkit-transform: rotate(270deg);
--moz-transform: rotate(270deg);
--o-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
 }
 
 .cbp-vimenu li a.icon-logo:before {
@@ -115,6 +162,15 @@ section
 	font-weight: 700;
 	font-size: 300%;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+}
+.icon-logo:hover
+{
+	font-weight: 800;
+	content: "TU"
 }
 
 .icon-Redes:before {
