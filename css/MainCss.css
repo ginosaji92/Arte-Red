@@ -80,7 +80,17 @@ section
 	margin: 50px 10px 10px 10px;
 	font-size: 24px;
 }
-
+footer
+{
+	background-color: #888888;
+	width: 97.5%;
+	bottom: 0;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	padding: 1em;
+	margin: 0;
+}
 
 
 
